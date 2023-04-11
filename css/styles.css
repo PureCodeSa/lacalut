@@ -138,6 +138,19 @@ a:hover {
 	text-decoration: none;
 	transition: all 0.2s;
 }
+.btn-ordernow {
+	display: inline-block;
+	padding: 18px;
+	border: 1px solid #0092ff;
+	border-radius: 5px;
+	background-color: #0092ff;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 0.875rem;
+	line-height: 0;
+	text-decoration: none;
+	transition: all 0.2s;
+}
 
 .btn-solid-reg:hover {
 	background-color: transparent;
@@ -697,16 +710,24 @@ a:hover {
 
 .cards-2 .card .quotes {
 	position: absolute;
-	top: -15px;
+	top: -100px;
 	left: 0;
 	right: 0;
-	width: 48px;
+	width: 188px;
 	margin-left: auto;
 	margin-right: auto;
 }
-
+.cards-2 .card .quotesX {
+	position: absolute;
+	top: -90px;
+	left: 0;
+	right: 0;
+	width: 188px;
+	margin-left: auto;
+	margin-right: auto;
+}
 .cards-2 .card-body {
-	padding: 3.5rem 2rem 3.125rem 2rem;
+	padding: 3.5rem 2rem 1.125rem 2rem;
 }
 
 .cards-2 .testimonial-author {
